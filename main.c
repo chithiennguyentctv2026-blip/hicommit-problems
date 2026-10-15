@@ -6,11 +6,7 @@ int main() {
 
   if (distance<=0||order_value<=0){
     printf("INVALID");
-  } else if (distance == 0&&order_value == 0){
-    printf("INVALID");
-  } else if(order_value<50000&& distance>15){
-    printf("INVALID");
-  } else if(order_value>=50000&&distance<=15){
+  }else if(order_value>=50000&&distance<=15){
     printf("15000");
   } else if (distance<=5){
     printf("15000");
