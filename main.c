@@ -2,7 +2,7 @@
 
 int main() {
     float dtb,drl;
-    scanf("%d%d", &dtb, &drl);
+    scanf("%d", &dtb, &drl);
 
     if (dtb >= 9.0 && drl >= 90) {
         cout << "HOC_BONG_XUAT_SAC";
