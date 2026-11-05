@@ -2,7 +2,7 @@
 
 int main() {
     double dtb, drl;
-    if (!(cin>>dtb>>drl)) return0;
+    if (!(cin >> dtb > drl)) return 0;
 
     if (dtb >= 9.0 && drl >= 90) {
         cout << "HOC_BONG_XUAT_SAC";
