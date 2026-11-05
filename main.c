@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 int main() {
-    float dtb,drl;
-    scanf("%d", &dtb, &drl);
+    double dtb, drl;
+    cin >> dtb >> drl;
 
     if (dtb >= 9.0 && drl >= 90) {
         cout << "HOC_BONG_XUAT_SAC";
